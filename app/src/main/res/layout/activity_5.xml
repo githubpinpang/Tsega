@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".Activity5">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:id="@+id/rec"
+        />
+
     <com.github.barteksc.pdfviewer.PDFView
         android:id="@+id/pdfbook1"
         android:layout_width="match_parent"

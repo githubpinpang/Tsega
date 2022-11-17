@@ -1,14 +1,27 @@
 package com.Tsega.tsega;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.MenuItemCompat;
 
+import java.io.*;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.SearchView;
 import android.widget.TextView;
+import android.widget.Toast;
+import android.widget.ArrayAdapter;
+import java.util.ArrayList;
+
+//import com.example.Fragment.*;
+import androidx.fragment.app.Fragment;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
@@ -70,12 +83,32 @@ public class MainActivity extends AppCompatActivity {
         });
 
         ATV = (AutoCompleteTextView) findViewById(R.id.ACT);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1,inputs);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, inputs);
         ATV.setAdapter(adapter);
+
+
     }
-   public void openActivity3()
-    {
-        Intent intent = new Intent(MainActivity.this, Activity3.class);
+
+
+
+
+
+      @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+            MenuInflater inflater = getMenuInflater();
+            inflater.inflate(R.menu.menu, menu);
+            MenuItem searchViewItem = menu.findItem(R.id.action_search);
+       //  SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchViewItem);
+
+          return super.onCreateOptionsMenu(menu);
+            }
+
+
+
+
+            public void openActivity3()
+        {
+            Intent intent = new Intent(MainActivity.this, Activity3.class);
         startActivity(intent);
 
     }

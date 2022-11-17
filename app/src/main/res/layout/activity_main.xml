@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--suppress ALL -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,7 +13,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ACT"
+
         android:text="Page#" />
 
 
@@ -25,763 +26,805 @@
 
 
         />
-<ScrollView
-    android:id="@+id/Sv"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/ACT"
-    >
-
-
-<RelativeLayout
-    android:id="@+id/Rl"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    tools:ignore="InvalidId">
-
-    <LinearLayout
-        android:id="@+id/ll"
-        android:layout_width="match_parent"
+    <ScrollView
+        android:id="@+id/Sv"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="1. ያየናል" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="35. Mezmur2" />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:id="@+id/l1"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_below="@+id/ll"
-        android:layout_marginTop="8dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="2. Mezmur2" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text=" 36. Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l2"
-        android:layout_below="@+id/l1"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="3. Mezmur3" />
-
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="37. Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l3"
-        android:layout_below="@+id/l2"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button11"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="4. Mezmur4" />
-
-        <Button
-            android:id="@+id/button12"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="38. Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l4"
-        android:layout_below="@+id/l3"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button13"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="5. Mezmur5" />
-
-        <Button
-            android:id="@+id/button14"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l5"
-        android:layout_below="@+id/l4"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button15"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="6.Mezmur" />
-
-        <Button
-            android:id="@+id/button16"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="39. Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l6"
-        android:layout_below="@+id/l5"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button17"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="7. Mezmur" />
-
-        <Button
-            android:id="@+id/button18"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="40. Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l7"
-        android:layout_below="@+id/l6"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button19"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="8. Mezmur" />
-
-        <Button
-            android:id="@+id/button20"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="41. Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l8"
-        android:layout_below="@+id/l7"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button21"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="9. Mezmur" />
-
-        <Button
-            android:id="@+id/button22"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="42. Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l9"
-        android:layout_below="@+id/l8"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button23"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="10. Mezmur" />
-
-        <Button
-            android:id="@+id/button24"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="43. Mezmur" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l10"
-        android:layout_below="@+id/l9"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button25"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="11. Mezmur" />
-
-        <Button
-            android:id="@+id/button26"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="44. Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l11"
-        android:layout_below="@+id/l10"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button27"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="12. Mezmur" />
-
-        <Button
-            android:id="@+id/button28"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="45. Mezmur" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l12"
-        android:layout_below="@+id/l11"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button29"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="13. Mezmur" />
-
-        <Button
-            android:id="@+id/button30"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="46. Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l13"
-        android:layout_below="@+id/l12"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button31"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="14. Mezmur" />
-
-        <Button
-            android:id="@+id/button32"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l14"
-        android:layout_below="@+id/l13"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button33"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="15. Mezmur" />
-
-        <Button
-            android:id="@+id/button34"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:id="@+id/l15"
-        android:layout_below="@+id/l14"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button35"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="16. Mezmur" />
-
-        <Button
-            android:id="@+id/button36"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l16"
-        android:layout_below="@+id/l15"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button37"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="17. Mezmur" />
-
-        <Button
-            android:id="@+id/button38"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l17"
-        android:layout_below="@+id/l16"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button39"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="18. Mezmur" />
-
-        <Button
-            android:id="@+id/button40"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l18"
-        android:layout_below="@+id/l17"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button41"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="19. Mezmur" />
-
-        <Button
-            android:id="@+id/button42"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l19"
-        android:layout_below="@+id/l18"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button43"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="20. Mezmur" />
-
-        <Button
-            android:id="@+id/button44"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l20"
-        android:layout_below="@+id/l19"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button45"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="21. Mezmur" />
-
-        <Button
-            android:id="@+id/button46"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l21"
-        android:layout_below="@+id/l20"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button47"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="22. Mezmur" />
-
-        <Button
-            android:id="@+id/button48"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l22"
-        android:layout_below="@+id/l21"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button49"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="23. Mezmur" />
-
-        <Button
-            android:id="@+id/button50"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l23"
-        android:layout_below="@+id/l22"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button51"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="24. Mezmur" />
-
-        <Button
-            android:id="@+id/button52"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l24"
-        android:layout_below="@+id/l23"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button53"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="25. Mezmur" />
-
-        <Button
-            android:id="@+id/button54"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l25"
-        android:layout_below="@+id/l24"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button55"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="26. Mezmur" />
-
-        <Button
-            android:id="@+id/button56"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l26"
-        android:layout_below="@+id/l25"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button57"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="27. Mezmur" />
-
-        <Button
-            android:id="@+id/button58"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l27"
-        android:layout_below="@+id/l26"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button59"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="28. Mezmur" />
-
-        <Button
-            android:id="@+id/button60"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l28"
-        android:layout_below="@+id/l27"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button61"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="29. Mezmur" />
-
-        <Button
-            android:id="@+id/button62"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l29"
-        android:layout_below="@+id/l28"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button63"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="30. Mezmur" />
-
-        <Button
-            android:id="@+id/button64"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l30"
-        android:layout_below="@+id/l29"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button65"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="31. Mezmur" />
-
-        <Button
-            android:id="@+id/button66"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l31"
-        android:layout_below="@+id/l30"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button67"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="32. Mezmur" />
-
-        <Button
-            android:id="@+id/button68"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l32"
-        android:layout_below="@+id/l31"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button69"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="33. Mezmur" />
-
-        <Button
-            android:id="@+id/button70"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/l33"
-        android:layout_below="@+id/l32"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button71"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="34. Mezmur" />
-
-        <Button
-            android:id="@+id/button72"
-            android:layout_width="150dp"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:text="Mezmur" />
-    </LinearLayout>
-
-
-</RelativeLayout>
-
-</ScrollView>
-</RelativeLayout>
+        android:layout_below="@+id/ACT"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/Rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="InvalidId">
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="1. ያየናል" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="35. Mezmur2" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_below="@+id/ll"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="2. Mezmur2" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text=" 36. Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_below="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="3. Mezmur3" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="37. Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_below="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="4. Mezmur4" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="38. Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_below="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="5. Mezmur5" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l5"
+                android:layout_below="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="6.Mezmur" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="39. Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l6"
+                android:layout_below="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="7. Mezmur" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="40. Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l7"
+                android:layout_below="@+id/l6"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="8. Mezmur" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="41. Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l8"
+                android:layout_below="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="9. Mezmur" />
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="42. Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l9"
+                android:layout_below="@+id/l8"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="10. Mezmur" />
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="43. Mezmur" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l10"
+                android:layout_below="@+id/l9"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="11. Mezmur" />
+
+                <Button
+                    android:id="@+id/button26"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="44. Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l11"
+                android:layout_below="@+id/l10"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button27"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="12. Mezmur" />
+
+                <Button
+                    android:id="@+id/button28"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="45. Mezmur" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l12"
+                android:layout_below="@+id/l11"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button29"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="13. Mezmur" />
+
+                <Button
+                    android:id="@+id/button30"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="46. Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l13"
+                android:layout_below="@+id/l12"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="14. Mezmur" />
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l14"
+                android:layout_below="@+id/l13"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button33"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="15. Mezmur" />
+
+                <Button
+                    android:id="@+id/button34"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l15"
+                android:layout_below="@+id/l14"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button35"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="16. Mezmur" />
+
+                <Button
+                    android:id="@+id/button36"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l16"
+                android:layout_below="@+id/l15"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button37"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="17. Mezmur" />
+
+                <Button
+                    android:id="@+id/button38"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l17"
+                android:layout_below="@+id/l16"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button39"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="18. Mezmur" />
+
+                <Button
+                    android:id="@+id/button40"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l18"
+                android:layout_below="@+id/l17"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button41"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="19. Mezmur" />
+
+                <Button
+                    android:id="@+id/button42"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l19"
+                android:layout_below="@+id/l18"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button43"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="20. Mezmur" />
+
+                <Button
+                    android:id="@+id/button44"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l20"
+                android:layout_below="@+id/l19"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button45"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="21. Mezmur" />
+
+                <Button
+                    android:id="@+id/button46"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l21"
+                android:layout_below="@+id/l20"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button47"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="22. Mezmur" />
+
+                <Button
+                    android:id="@+id/button48"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l22"
+                android:layout_below="@+id/l21"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button49"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="23. Mezmur" />
+
+                <Button
+                    android:id="@+id/button50"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l23"
+                android:layout_below="@+id/l22"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button51"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="24. Mezmur" />
+
+                <Button
+                    android:id="@+id/button52"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l24"
+                android:layout_below="@+id/l23"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button53"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="25. Mezmur" />
+
+                <Button
+                    android:id="@+id/button54"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l25"
+                android:layout_below="@+id/l24"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button55"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="26. Mezmur" />
+
+                <Button
+                    android:id="@+id/button56"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l26"
+                android:layout_below="@+id/l25"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button57"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="27. Mezmur" />
+
+                <Button
+                    android:id="@+id/button58"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l27"
+                android:layout_below="@+id/l26"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button59"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="28. Mezmur" />
+
+                <Button
+                    android:id="@+id/button60"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l28"
+                android:layout_below="@+id/l27"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button61"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="29. Mezmur" />
+
+                <Button
+                    android:id="@+id/button62"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l29"
+                android:layout_below="@+id/l28"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button63"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="30. Mezmur" />
+
+                <Button
+                    android:id="@+id/button64"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l30"
+                android:layout_below="@+id/l29"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button65"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="31. Mezmur" />
+
+                <Button
+                    android:id="@+id/button66"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l31"
+                android:layout_below="@+id/l30"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button67"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="32. Mezmur" />
+
+                <Button
+                    android:id="@+id/button68"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l32"
+                android:layout_below="@+id/l31"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button69"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="33. Mezmur" />
+
+                <Button
+                    android:id="@+id/button70"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l33"
+                android:layout_below="@+id/l32"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button71"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="34. Mezmur" />
+
+                <Button
+                    android:id="@+id/button72"
+                    android:layout_width="150dp"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    android:text="Mezmur" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottombar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/cardview_light_background"
+            android:gravity="bottom"
+            app:fabCradleMargin="10dp"
+            app:fabCradleRoundedCornerRadius="50dp"
+        style="@style/Widget.MaterialComponents.BottomAppBar"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabAlignmentMode="center"
+
+        app:fabCradleVerticalOffset="5dp"
+        app:hideOnScroll="true"
+          >
+
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_baseline_add_24"
+        tools:ignore="VectorDrawableCompat"
+        android:tint="@android:color/white"
+       app:fabSize="normal"
+        app:layout_anchor="@id/bottombar"
+
+        />
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout >
